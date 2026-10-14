@@ -30,4 +30,4 @@ The project is structured as a monorepo consisting of two primary modules:
    pip install -r requirements.txt
 
 ### Run the Pipeline Script
-    python main.py# bist-portfolio-system
+    python main.py
