@@ -1,0 +1,45 @@
+# ==========================================
+# 1. IDE & Editör Dosyaları (IntelliJ / PyCharm / VS Code)
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ==========================================
+# 2. Python (portfolio klasörü için)
+# ==========================================
+__pycache__/
+**/__pycache__/
+.venv/
+**/ .venv/
+venv/
+**/venv/
+*.py[cod]
+*.csv
+portfolio_report.png
+.ipynb_checkpoints/
+*.egg-info/
+
+# ==========================================
+# 3. Java & Spring Boot (backend klasörü için)
+# ==========================================
+backend/build/
+backend/.gradle/
+backend/out/
+backend/target/
+**/build/
+**/target/
+**/out/
+
+# Hassas Konfigürasyon ve Şifre Dosyaları
+backend/src/main/resources/application.properties
+**/src/main/resources/application-local.properties
+**/src/main/resources/application-secret.properties
+
+# ==========================================
+# 4. İşletim Sistemi Geçici Dosyaları
+# ==========================================
+.DS_Store
+Thumbs.db
