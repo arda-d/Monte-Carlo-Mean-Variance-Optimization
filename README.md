@@ -1,4 +1,4 @@
-#Portfolio Management Engine
+##Portfolio Management Engine
 
 A hybrid portfolio optimization and management system combining a quantitative Python analytics engine with a Java Spring Boot backend.
 
